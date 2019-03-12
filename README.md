@@ -4,6 +4,7 @@
   - Leitura essêncial do material sobre testes http://media.pragprog.com/titles/utj/whatis.pdf
   - Leitura essêncial https://martinfowler.com/articles/mocksArentStubs.html
   - Finalizar a implementação do ArrayList
+  - Implementar uma calculadora de imposto em outra linguagem, com TDD;
   - Implemente a interface Map
   - No kaggle, com a base de dados (https://www.kaggle.com/mohansacharya/graduate-admissions), implemente tais situações (utilize suas collections) :
     - Situação aprovado ou não pelo Id;
@@ -19,3 +20,4 @@
 ### Leitura Complementar :
 - Junit https://www.vogella.com/tutorials/JUnit/article.html
 - DI https://www.ibm.com/developerworks/community/blogs/fd26864d-cb41-49cf-b719-d89c6b072893/entry/inje_C3_A7_C3_A3o_de_depend_C3_AAncia_desacoplando_sua_aplica_C3_A7_C3_A3o2?lang=en
+- Definition of Done https://luis-goncalves.com/pt-pt/definition-of-done-checklist/
