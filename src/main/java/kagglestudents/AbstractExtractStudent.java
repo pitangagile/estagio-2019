@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-public abstract class AbstractExtractStudent implements IExtracStudent {
+public abstract class AbstractExtractStudent implements IExtractStudent {
 
     public List<StudentVO> load() {
         StudentVO studentVO = new StudentVO();

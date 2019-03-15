@@ -2,7 +2,7 @@ package kagglestudents;
 
 import java.util.List;
 
-public interface IExtracStudent {
+public interface IExtractStudent {
 
     public List<StudentVO> load();
 }

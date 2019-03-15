@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5225fe4e-1e55-4d6d-80ec-a77fd27807a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/ExtractStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/IExtracStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/PitangListGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistente/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistente/IObjetoPersistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistente/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistente/ObjetoPersistenteAbstrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistente/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProfessorTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/list/PitangList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/list/PitangList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PitangListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PitangListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kagglestudents/IExtracStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProfessorTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProfessorTeste.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,15 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="75">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
                 <element signature="e#462#463#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
@@ -78,19 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/IExtracStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,6 +150,9 @@
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/ExtractStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kagglestudents/Leitor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" />
       </list>
     </option>
   </component>
@@ -241,6 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552429415208" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -264,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProfessorTeste">
+  <component name="RunManager" selected="JUnit.StudentNotebookTest.usuarioNaoAprovadoComIdExistente">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="persistente.Main" />
       <module name="pitangCollection" />
@@ -291,16 +285,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PitangListTest.clear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pitangCollection" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PitangListTest" />
-      <option name="METHOD_NAME" value="clear" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProfessorTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pitangCollection" />
       <option name="PACKAGE_NAME" value="" />
@@ -320,13 +304,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pitangCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentNotebookTest" />
+      <option name="METHOD_NAME" value="usuarioNaoAprovadoComIdExistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentNotebookTest.usuarioNaoAprovadoComIdExistente" />
         <item itemvalue="JUnit.ProfessorTeste" />
         <item itemvalue="JUnit.ProfessorTeste.test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PitangListTest.clear" />
       </list>
     </recent_temporary>
   </component>
@@ -344,9 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PitangListTest_add - 2019.03.12 at 16h 19m 57s.xml">
-      <configuration name="PitangListTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PitangListTest_clear - 2019.03.12 at 16h 39m 23s.xml">
       <configuration name="PitangListTest.clear" configurationId="JUnit" />
     </history-entry>
@@ -374,12 +365,15 @@
     <history-entry file="ProfessorTeste - 2019.03.14 at 16h 47m 02s.xml">
       <configuration name="ProfessorTeste" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.15 at 14h 38m 15s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="733" height="575" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4197925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123726346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,12 +382,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68566775" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3251121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33856502" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3251121" />
@@ -582,14 +576,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/Leitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/ExtractStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="75">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
@@ -623,40 +667,6 @@
             <element signature="e#1383#1384#0" expanded="true" />
             <element signature="e#1431#1432#0" expanded="true" />
             <element signature="e#1467#1468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/IExtracStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/ExtractStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
