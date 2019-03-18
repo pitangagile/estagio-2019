@@ -11,6 +11,8 @@ public class StudentNotebook {
     public StudentNotebook(ExtractStudent extractStudent) {
         this.extractStudent = extractStudent;
         this.studentNotebookList = extractStudent.load();
+
+
     }
 
     public Boolean isAnApprovedUser(Integer id) {

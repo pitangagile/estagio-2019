@@ -31,7 +31,6 @@ public class StudentNotebookTest {
     }
 
 
-
     private StudentVO getStudentVO() {
         StudentVO studentVO = new StudentVO();
         studentVO.setId(1);
@@ -57,14 +56,31 @@ public class StudentNotebookTest {
     @Test
     public void usuarioNaoAprovadoComIdExistente() {
 
-        this.students = Mockito.spy(new ArrayList<StudentVO>());
-        students.add(getStudentVO());
-        Mockito.doReturn(false).when(students.get(Mockito.anyInt()).isApproved());
+        ArrayList<StudentVO> studentsList = Mockito.spy(new ArrayList<StudentVO>());
+        StudentVO student = Mockito.spy(getStudentVO());
 
+        //We'd like not approved
+        Mockito.doReturn(false).when(student).isApproved();
+
+        //Add the mock to list of mock
+        studentsList.add(student);
+
+        // I want my mock be returned
+        Mockito.when(studentsList.get(Mockito.anyInt())).thenReturn(student);
+
+
+        // Mock all other to setup
+        ExtractStudent extractStudent = Mockito.spy(new ExtractStudent());
+        Mockito.doReturn(studentsList).when(extractStudent).load();
+
+        StudentNotebook studentNotebook = new StudentNotebook(extractStudent);
+
+        // Must me False
         Boolean aprovado = studentNotebook.isAnApprovedUser(1);
+
         Assert.assertFalse(aprovado);
 
-        Mockito.verify(students, new Times(1)).size();
+        Mockito.verify(studentsList, new Times(1)).size();
 
     }
 

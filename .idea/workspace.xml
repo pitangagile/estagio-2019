@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5225fe4e-1e55-4d6d-80ec-a77fd27807a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kagglestudents/IExtracStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProfessorTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProfessorTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,47 +16,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="195">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+            <state relative-caret-position="356">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,9 +117,9 @@
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudents.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/ExtractStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/kagglestudents/Leitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java" />
         <option value="$PROJECT_DIR$/src/test/java/StudentNotebookTest.java" />
       </list>
     </option>
@@ -174,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +196,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,27 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PitangListTest_clear - 2019.03.12 at 16h 39m 23s.xml">
-      <configuration name="PitangListTest.clear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PitangListTest_clear - 2019.03.12 at 16h 40m 18s.xml">
-      <configuration name="PitangListTest.clear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PitangListTest_clear - 2019.03.12 at 19h 12m 12s.xml">
-      <configuration name="PitangListTest.clear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PitangListTest_clear - 2019.03.13 at 07h 43m 09s.xml">
-      <configuration name="PitangListTest.clear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PitangListTest_clear - 2019.03.13 at 13h 05m 16s.xml">
-      <configuration name="PitangListTest.clear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfessorTeste_test - 2019.03.14 at 16h 39m 42s.xml">
-      <configuration name="ProfessorTeste.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfessorTeste - 2019.03.14 at 16h 40m 42s.xml">
-      <configuration name="ProfessorTeste" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProfessorTeste_test - 2019.03.14 at 16h 45m 08s.xml">
       <configuration name="ProfessorTeste.test" configurationId="JUnit" />
     </history-entry>
@@ -368,12 +315,33 @@
     <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.15 at 14h 38m 15s.xml">
       <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 33m 30s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 34m 43s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 35m 20s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 37m 09s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 38m 53s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 40m 13s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentNotebookTest_usuarioNaoAprovadoComIdExistente - 2019.03.18 at 13h 52m 40s.xml">
+      <configuration name="StudentNotebookTest.usuarioNaoAprovadoComIdExistente" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="733" height="575" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123726346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06943336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,15 +350,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3251121" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16775244" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33856502" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1921824" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3251121" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32247558" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,6 +396,18 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/PitangListTest.java">
@@ -576,17 +556,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/Leitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/Leitor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/IExtractStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,76 +595,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentNotebook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="195">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/AbstractExtractStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentNotebookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="356">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kagglestudents/StudentVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
           </folding>
         </state>
       </provider>
