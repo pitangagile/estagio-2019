@@ -5,29 +5,35 @@ import biblioteca.infraestrutura.IObjectPersistent;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Objects;
+import java.util.Set;
 
 
 @Entity
 @Table(name = "tblivro")
 public class Livro implements IObjectPersistent<Long> {
 
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @OneToMany(mappedBy = "livro", cascade = CascadeType.ALL, orphanRemoval = true)
+//    @JoinColumn(name = "acervo_livro")
+    private Set<Acervo_Livro> acervo_livro;
+
     @Size(max = 100,min = 2)
-    @Column(name = "cltitulo",nullable = false)
+    @Column(name = "liv_cl_titulo",nullable = false)
     private String titulo;
 
     @Size(max = 100,min = 10)
-    @Column(name = "clsinopse")
+    @Column(name = "liv_cl_sinopse")
     private String sinopse;
 
     @Size(max = 9,min = 4)
-    @Column(name = "clanolancamento")
+    @Column(name = "liv_cl_anolancamento")
     private String anoLancamento;
+
+    @ManyToMany(targetEntity = Emprestimo.class, mappedBy = "livros")
+    private Set<Emprestimo> emprestimos;
 
     @Override
     public boolean equals(Object o) {
