@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/estagio-biblioteca.iml" filepath="$PROJECT_DIR$/estagio-biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.iml" filepath="$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.test.iml" filepath="$PROJECT_DIR$/.idea/modules/pitang.estagio-biblioteca.test.iml" />
     </modules>
   </component>
 </project>
