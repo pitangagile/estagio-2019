@@ -5,6 +5,7 @@ import biblioteca.infraestrutura.IObjectPersistent;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Objects;
+import java.util.Set;
 
 
 @Entity
@@ -28,6 +29,11 @@ public class Livro implements IObjectPersistent<Long> {
     @Size(max = 9,min = 4)
     @Column(name = "clanolancamento")
     private String anoLancamento;
+
+    @OneToMany(mappedBy = "acervo",
+    cascade = CascadeType.ALL,
+    orphanRemoval = true)
+    private Set<AcervoLivro> acervoLivro;
 
     @Override
     public boolean equals(Object o) {

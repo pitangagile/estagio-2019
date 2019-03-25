@@ -6,7 +6,6 @@ import biblioteca.infraestrutura.dao.AbstractDao;
 import biblioteca.model.Livro;
 import biblioteca.model.LivroDTO;
 import io.swagger.annotations.Api;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.transaction.annotation.Transactional;

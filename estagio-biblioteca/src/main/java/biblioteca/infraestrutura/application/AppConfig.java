@@ -21,7 +21,7 @@ public class AppConfig {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
         sessionFactory.setPackagesToScan(
-                new String[]{"biblioteca.model"});
+                new String[]{"biblioteca/model"});
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;
