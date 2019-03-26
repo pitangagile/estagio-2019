@@ -1,4 +1,4 @@
-package biblioteca.model;
+package biblioteca.model.biblioteca;
 
 import biblioteca.infraestrutura.IObjectPersistent;
 

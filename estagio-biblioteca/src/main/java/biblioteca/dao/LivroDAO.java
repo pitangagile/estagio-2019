@@ -3,7 +3,7 @@ package biblioteca.dao;
 import biblioteca.infraestrutura.dao.AbstractDao;
 import biblioteca.infraestrutura.dao.AbstractLibraryDao;
 import biblioteca.infraestrutura.dao.IDao;
-import biblioteca.model.Livro;
+import biblioteca.model.biblioteca.Livro;
 import org.springframework.stereotype.Component;
 
 

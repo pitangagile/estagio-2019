@@ -1,7 +1,6 @@
 package biblioteca.model.biblioteca;
 
 import biblioteca.infraestrutura.IObjectPersistent;
-import biblioteca.model.Livro;
 
 import javax.persistence.*;
 

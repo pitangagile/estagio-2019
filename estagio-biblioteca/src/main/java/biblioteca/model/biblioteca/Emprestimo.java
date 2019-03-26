@@ -1,7 +1,6 @@
 package biblioteca.model.biblioteca;
 
 
-import biblioteca.model.Livro;
 import biblioteca.utils.SituacaoEmprestimo;
 
 import javax.persistence.*;

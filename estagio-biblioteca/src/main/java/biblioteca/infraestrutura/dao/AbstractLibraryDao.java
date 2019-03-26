@@ -18,4 +18,6 @@ public class AbstractLibraryDao<T extends IObjectPersistent<C>,C> extends Abstra
     public Session getSession() {
         return sessionFactory.getCurrentSession();
     }
+
+
 }
