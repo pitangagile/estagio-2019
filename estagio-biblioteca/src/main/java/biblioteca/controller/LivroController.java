@@ -2,11 +2,10 @@ package biblioteca.controller;
 
 import biblioteca.dao.LivroDAO;
 import biblioteca.infraestrutura.controller.AbstractController;
-import biblioteca.infraestrutura.dao.AbstractDao;
+import biblioteca.infraestrutura.dao.AbstractLibraryDao;
 import biblioteca.model.Livro;
 import biblioteca.model.LivroDTO;
 import io.swagger.annotations.Api;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.transaction.annotation.Transactional;
@@ -58,12 +57,12 @@ public class LivroController extends AbstractController<Livro, Long> implements 
     }
 
     @Override
-    public AbstractDao<Livro, Long> getDao() {
+    public AbstractLibraryDao<Livro, Long> getDao() {
         return livroDAO;
     }
 
     @Override
-    public void setDao(AbstractDao<Livro, Long> dao) {
+    public void setDao(AbstractLibraryDao<Livro, Long> dao) {
         super.setDao(livroDAO);
     }
 }

@@ -2,6 +2,7 @@ package biblioteca.infraestrutura.controller;
 
 import biblioteca.infraestrutura.IObjectPersistent;
 import biblioteca.infraestrutura.dao.AbstractDao;
+import biblioteca.infraestrutura.dao.AbstractLibraryDao;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +15,7 @@ import java.util.List;
 public abstract class AbstractController<T extends IObjectPersistent<C>, C> implements IController<T, C> {
 
 
-    AbstractDao<T,C> dao;
+    AbstractLibraryDao<T,C> dao;
 
     @Override
     @Transactional
@@ -51,13 +52,11 @@ public abstract class AbstractController<T extends IObjectPersistent<C>, C> impl
         return null;
     }
 
-    public AbstractDao<T, C> getDao() {
+    public AbstractLibraryDao<T, C> getDao() {
         return dao;
     }
 
-    public void setDao(AbstractDao<T, C> dao) {
+    public void setDao(AbstractLibraryDao<T, C> dao) {
         this.dao = dao;
     }
-
-
 }

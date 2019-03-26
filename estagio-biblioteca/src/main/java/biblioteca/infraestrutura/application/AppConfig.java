@@ -52,6 +52,10 @@ public class AppConfig {
                 "hibernate.hbm2ddl.auto", "update");
         hibernateProperties.setProperty(
                 "hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+        hibernateProperties.setProperty(
+                "hibernate.hbm2ddl.import_files", "schemas.sql");
+
+
        return hibernateProperties;
     }
 }
