@@ -1,11 +1,16 @@
 package biblioteca.infraestrutura.dao;
 
 import biblioteca.infraestrutura.IObjectPersistent;
+import biblioteca.model.Livro;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.CriteriaQuery;
 import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
@@ -27,6 +32,7 @@ public abstract class AbstractDao<T extends IObjectPersistent<C>,C> implements I
 
     @Override
     public void insert(T model) {
+
         this.getSession().persist(model);
     }
 
@@ -48,9 +54,19 @@ public abstract class AbstractDao<T extends IObjectPersistent<C>,C> implements I
     @Override
     public List<T> findAll() {
 
-        NativeQuery query = this.getSession().createSQLQuery("select * from tblivro");
+        String ano = "1992";
 
-        return query.list();
+        //Query query = this.getSession().createQuery("from Livro");
+        //query.setParameter("anolancamento", ano);
+
+        //CriteriaBuilder criteriaBuilder = this.getSession().getCriteriaBuilder();
+        //CriteriaQuery results = (CriteriaQuery) criteriaBuilder.createQuery(this.objectClass);
+        //return ((javax.persistence.criteria.CriteriaQuery) results).getOrderList();
+
+        Criteria criteria = this.getSession().createCriteria(this.objectClass);
+
+        //return query.list();
+        return criteria.list();
     }
 
     @Override
