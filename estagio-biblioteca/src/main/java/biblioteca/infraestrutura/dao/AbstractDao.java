@@ -1,11 +1,17 @@
 package biblioteca.infraestrutura.dao;
 
 import biblioteca.infraestrutura.IObjectPersistent;
+import biblioteca.model.Livro;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
@@ -48,9 +54,19 @@ public abstract class AbstractDao<T extends IObjectPersistent<C>,C> implements I
     @Override
     public List<T> findAll() {
 
-        NativeQuery query = this.getSession().createSQLQuery("select * from tblivro");
+        String ano = "1992";
+
+        NativeQuery query = this.getSession().createSQLQuery("select * from tb_livro l where l.LIV_CL_ANOLANCAMENTO = :anolancamento");
+        query.setParameter("anolancamento",ano);
+        //Query query = this.getSession().createQuery("from Livro");
+
+        //Criteria criteria = this.getSession().createCriteria(this.objectClass);
+        //criteria.add(Restrictions.eq("anoLancamento",ano));
+
+        //results.getOrderList(); tava sendo usado no criteria
 
         return query.list();
+        //return criteria.list();
     }
 
     @Override

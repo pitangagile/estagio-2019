@@ -5,12 +5,12 @@ import biblioteca.infraestrutura.IObjectPersistent;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Objects;
+import java.util.Set;
 
 
 @Entity
-@Table(name = "tblivro")
+@Table(name = "tb_livro")
 public class Livro implements IObjectPersistent<Long> {
-
 
 
     @Id
@@ -18,16 +18,26 @@ public class Livro implements IObjectPersistent<Long> {
     private Long id;
 
     @Size(max = 100,min = 2)
-    @Column(name = "cltitulo",nullable = false)
+    @Column(name = "liv_cl_titulo",nullable = false)
     private String titulo;
 
     @Size(max = 100,min = 10)
-    @Column(name = "clsinopse")
+    @Column(name = "liv_cl_sinopse")
     private String sinopse;
 
     @Size(max = 9,min = 4)
-    @Column(name = "clanolancamento")
+    @Column(name = "liv_cl_anolancamento")
     private String anoLancamento;
+
+    @ManyToMany(mappedBy = "livros", fetch = FetchType.EAGER) //um usuario poderá ter vários emprestimos. mappedBy = "livros"
+    private Set<Emprestimo> emprestimos;
+
+    @OneToMany(mappedBy = "livro", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<AcervoLivro> acervoLivro;
+
+    @ManyToOne
+    @JoinColumn(name = "liv_cl_compra")
+    private Compra compra;
 
     @Override
     public boolean equals(Object o) {
@@ -75,4 +85,22 @@ public class Livro implements IObjectPersistent<Long> {
     public void setAnoLancamento(String anoLancamento) {
         this.anoLancamento = anoLancamento;
     }
+
+    public Set<Emprestimo> getEmprestimos() {
+        return emprestimos;
+    }
+
+    public void setEmprestimos(Set<Emprestimo> emprestimos) {
+        this.emprestimos = emprestimos;
+    }
+
+    public Set<AcervoLivro> getAcervoLivro() {
+        return acervoLivro;
+    }
+
+    public void setAcervoLivro(Set<AcervoLivro> acervoLivro) {
+        this.acervoLivro = acervoLivro;
+    }
+
+
 }

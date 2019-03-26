@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AbstractLibraryDao<T extends IObjectPersistent<C>,C> extends AbstractDao<T,C>{
 
-    @Autowired
+    @Autowired //injeção de dependencias
     @Qualifier("sessionFactory")
     private SessionFactory sessionFactory;
 
