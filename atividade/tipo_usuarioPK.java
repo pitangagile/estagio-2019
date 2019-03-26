@@ -21,6 +21,11 @@ public class tipo_usuarioPK implements Serializable {
         return Objects.equal(codigo, that.codigo);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(codigo);
+    }
+
     public Long getCodigo() {
         return codigo;
     }
